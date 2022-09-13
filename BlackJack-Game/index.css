@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 234, 158);
+    padding: 50px;
+}
+
+#title-el {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#playerName-el {
+    display: flex;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(249, 245, 240, 0.905);
+}
+
+#message-el,
+#greeting-el {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    max-width: 100%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+#cards-el {
+    display: flex;
+    justify-content: center;
+}
+
+#sum-el {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    box-shadow: 2px 2px 5px rgb(54, 59, 1);
+
+}
+
+#player-el {
+    display: flex;
+    justify-content: center;
+}
+
+#playername-el {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#submitname-el {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+}
+
+.label--name {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+}
+
+footer {
+
+    margin: auto;
+    font-size: 10px;
+}
